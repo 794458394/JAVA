@@ -1,0 +1,13 @@
+若在eclipse中输入
+int arr[]=new int[8];
+        System.out.println(arr[8]);
+则会有
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+
+JAVA中越界后并不能使用，只会报错。
+
+length用于求String字符串数组的长度。
+String [] s={"abc","def","ghi"};
+int m;
+m=s.length;
+输出m的值为3。
