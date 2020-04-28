@@ -1,0 +1,10 @@
+package DieDaiQi;
+
+public interface TvIterator {
+	void setChannel(int i);
+	void next();
+	void previous();
+	boolean isLast();
+	Object currentChannel();
+	boolean isFirst();
+}
